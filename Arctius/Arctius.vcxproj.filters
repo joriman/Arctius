@@ -27,9 +27,15 @@
     <ClInclude Include="src\Arctius\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Arctius\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Arctius\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Arctius\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

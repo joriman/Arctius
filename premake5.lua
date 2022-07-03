@@ -10,6 +10,8 @@ workspace "Arctius"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+startproject "Sandbox"
+
 project "Arctius"
 	location "Arctius"
 	kind "SharedLib"

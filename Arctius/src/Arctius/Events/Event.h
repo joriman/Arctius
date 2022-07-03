@@ -1,9 +1,7 @@
 #pragma once
 
+#include "arcpch.h"
 #include "../Core.h"
-
-#include <string>
-#include <functional>
 
 namespace Arctius {
 

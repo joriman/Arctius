@@ -4,6 +4,9 @@
     <Filter Include="Arctius">
       <UniqueIdentifier>{200676A0-8CE5-F43B-95FD-7F12015C5B9D}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arctius\Events">
+      <UniqueIdentifier>{048E639E-F05B-57A4-D9EF-C7CAC55C3309}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Arctius.h" />
@@ -16,13 +19,22 @@
     <ClInclude Include="src\Arctius\EntryPoint.h">
       <Filter>Arctius</Filter>
     </ClInclude>
+    <ClInclude Include="src\Arctius\Events\ApplicationEvent.h">
+      <Filter>Arctius\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Arctius\Events\Event.h">
+      <Filter>Arctius\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Arctius\Events\KeyEvent.h">
+      <Filter>Arctius\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Arctius\Events\MouseEvent.h">
+      <Filter>Arctius\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Arctius\Log.h">
       <Filter>Arctius</Filter>
     </ClInclude>
-    <ClInclude Include="src\Arctius\Events\Event.h" />
-    <ClInclude Include="src\Arctius\Events\ApplicationEvent.h" />
-    <ClInclude Include="src\Arctius\Events\KeyEvent.h" />
-    <ClInclude Include="src\Arctius\Events\MouseEvent.h" />
+    <ClInclude Include="src\arcpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Arctius\Application.cpp">
@@ -31,5 +43,6 @@
     <ClCompile Include="src\Arctius\Log.cpp">
       <Filter>Arctius</Filter>
     </ClCompile>
+    <ClCompile Include="src\arcpch.cpp" />
   </ItemGroup>
 </Project>

@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Arctius {
 
 	class ARCTIUS_API MouseMovedEvent : public Event

@@ -1,3 +1,4 @@
+#include "arcpch.h"
 #include "Log.h"
 
 namespace Arctius {

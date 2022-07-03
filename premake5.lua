@@ -20,6 +20,9 @@ project "Arctius"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 	
+	pchheader "arcpch.h"
+	pchsource "Arctius/src/arcpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

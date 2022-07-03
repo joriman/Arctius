@@ -19,6 +19,10 @@
     <ClInclude Include="src\Arctius\Log.h">
       <Filter>Arctius</Filter>
     </ClInclude>
+    <ClInclude Include="src\Arctius\Events\Event.h" />
+    <ClInclude Include="src\Arctius\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Arctius\Events\KeyEvent.h" />
+    <ClInclude Include="src\Arctius\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Arctius\Application.cpp">

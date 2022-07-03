@@ -139,6 +139,10 @@
     <ClInclude Include="src\Arctius\Application.h" />
     <ClInclude Include="src\Arctius\Core.h" />
     <ClInclude Include="src\Arctius\EntryPoint.h" />
+    <ClInclude Include="src\Arctius\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Arctius\Events\Event.h" />
+    <ClInclude Include="src\Arctius\Events\KeyEvent.h" />
+    <ClInclude Include="src\Arctius\Events\MouseEvent.h" />
     <ClInclude Include="src\Arctius\Log.h" />
   </ItemGroup>
   <ItemGroup>

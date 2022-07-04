@@ -1,3 +1,6 @@
 [submodule "Arctius/vendor/spdlog"]
 	path = Arctius/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Arctius/vendor/GLFW"]
+	path = Arctius/vendor/GLFW
+	url = https://github.com/JJ0rd4n/glfw.git

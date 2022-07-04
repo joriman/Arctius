@@ -12,6 +12,11 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 startproject "Sandbox"
 
+IncludeDir = {}
+IncludeDir["GLFW"] = "Arctius/vendor/GLFW/include"
+
+include "Arctius/vendor/GLFW"
+
 project "Arctius"
 	location "Arctius"
 	kind "SharedLib"
@@ -32,7 +37,14 @@ project "Arctius"
 	includedirs
 	{
 		"%{prj.name}/src",
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links 
+	{ 
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"
